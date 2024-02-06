@@ -1,3 +1,4 @@
+
 var resonnseData={
   "request_date_ms": 1707243929890,
   "request_date": "2024-02-06T18:25:29Z",
@@ -35,7 +36,7 @@ var resonnseData={
       }
     },
     "original_purchase_date": "2024-01-06T02:28:16Z",
-    "original_app_user_id": "$RCAnonymousID:6bd9afd3d3a249c1a8a36803d688404b",
+    "original_app_user_id": "$RCAnonymousID%3A3b3f1e095646489994f09c505930ac17",
     "last_seen": "2024-02-06T11:23:55Z"
   }
 };
