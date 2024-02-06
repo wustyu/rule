@@ -41,4 +41,6 @@ var resonnseData={
   };
 
 var body = JSON.stringify(resonnseData);
-$done({body:resonnseData});
+let headers = $response.headers;
+headers['Content-Type'] = 'application/json';
+$done({headers:headers,body:body});
