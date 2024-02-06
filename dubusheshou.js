@@ -41,4 +41,4 @@ var resonnseData={
   };
 
 var body = JSON.stringify(resonnseData);
-$done(resonnseData);
+$done({body:resonnseData});
