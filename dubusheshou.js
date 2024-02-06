@@ -35,7 +35,7 @@ var resonnseData={
         }
       },
       "original_purchase_date": "2024-01-06T02:28:16Z",
-      "original_app_user_id": "$RCAnonymousID:6bd9af86d3a249c1a8a36803996221",
+      "original_app_user_id": "$RCAnonymousID%3A6bd9afd3d3a249c1a8a36803d688404b",
       "last_seen": "2024-02-05T02:36:01Z"
     }
   };
