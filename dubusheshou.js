@@ -15,7 +15,7 @@ var resonnseData={
           "expires_date": "2025-03-05T23:34:46Z",
           "is_sandbox": false,
           "refunded_at": null,
-          "store_transaction_id": "510001474706469",
+          "store_transaction_id": "5163901476322633",
           "unsubscribe_detected_at": null,
           "grace_period_expires_date": null,
           "period_type": "normal",
@@ -35,7 +35,7 @@ var resonnseData={
         }
       },
       "original_purchase_date": "2024-01-06T02:28:16Z",
-      "original_app_user_id": "$RCAnonymousID:6bd9afd3d3a249c1a8a36803d688404b",
+      "original_app_user_id": "$RCAnonymousID:6bd9af86d3a249c1a8a36803996221",
       "last_seen": "2024-02-05T02:36:01Z"
     }
   };
