@@ -1,0 +1,6 @@
+var ver=$environment['device-model'];
+if(ver=='iPad8,1') 
+	
+$done({matched:true});
+else 
+$done({matched:false});
