@@ -1,0 +1,7 @@
+var ver=$environment['device-model'];
+if(ver.indexOf('iPhone')!==-1){
+	$done({matched:true});
+}
+else {
+	$done({matched:false});
+}
