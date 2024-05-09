@@ -1,0 +1,14 @@
+var wifiArray=['@PHICOMM_8D','H3C_698AAB_5G','H3C_keting','H3C_keting_5G','ZTE-Y3bcTU'];
+var currentwifi=$network.wifi.ssid;
+if(currentwifi&&wifiArray.includes(currentwifi)){
+    $done({address: '192.168.1.123', ttl: 600});
+}
+else{
+    $httpClient.get('http://119.29.29.29/d?dn=' + $domain, function(error, response, data){
+    if (error) {
+        $done({}); // Fallback to standard DND query
+    } else {
+    $done({addresses: data.split(';'), ttl: 600});
+    }
+    });
+}
