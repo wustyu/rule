@@ -1,0 +1,7 @@
+var ver=$environment['device-model'];
+if(ver.toLowerCase().indexOf('tv')!=-1){
+	$done({matched:true});
+}
+else {
+	$done({matched:false});
+}
